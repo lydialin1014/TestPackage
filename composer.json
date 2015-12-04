@@ -1,0 +1,15 @@
+{
+    "name": "lydia/testpackage",
+    "authors": [
+        {
+            "name": "Lydia",
+            "email": "lydia@bamboocat.com"
+        }
+    ],
+    "require": {},
+     "autoload": {
+        "psr-4": {
+            "Lydia\\TestPackage\\": "src/app"
+        }
+    }
+}
